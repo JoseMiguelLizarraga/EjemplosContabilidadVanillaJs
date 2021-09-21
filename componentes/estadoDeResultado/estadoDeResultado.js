@@ -101,7 +101,7 @@ export class EstadoDeResultadoComponent extends CargaVista
         rubroGastos.totalGastos = {
             cantidad: 15000 + 2000,
             porcentaje: "17%",
-            descripcion: "Esto es:  Gastos Administrativos (15000) + Gastos Venta (2000)"
+            descripcion: "Esto es:  Gastos Administrativos (15.000) + Gastos Venta (2.000)"
         };
 
         // Quinto paso (Calcular Impuestos)
@@ -241,23 +241,6 @@ export class EstadoDeResultadoComponent extends CargaVista
 
         <br/><br/> 
         `;
-
-        /*
-        Ventas ${formatearNumero(rubroVentas.ventas.cantidad)} <br/>
-        Descuento sobre ventas ${formatearNumero(rubroVentas.descuentoSobreVentas.cantidad)} <br/>
-        Ventas netas ${formatearNumero(rubroVentas.ventasNetas.cantidad)} <br/><br/>
-        
-        Mano de obra ${formatearNumero(rubroCostoVentas.manoDeObra.cantidad)} <br/>
-        Materia prima ${formatearNumero(rubroCostoVentas.materiaPrima.cantidad)} <br/>
-        Costo de ventas ${formatearNumero(rubroCostoVentas.costoVentas.cantidad)} <br/>
-        Utilidad bruta ${formatearNumero(utilidadBruta.cantidad)} <br/>
-        Gastos administrativos ${formatearNumero(rubroGastos.gastosAdministrativos.cantidad)} <br/>
-        Gastos de venta ${formatearNumero(rubroGastos.gastosVenta.cantidad)} <br/>
-        Total de gastos ${formatearNumero(rubroGastos.totalGastos.cantidad)} <br/>
-        Utilidad antes de impuestos ${formatearNumero(rubroImpuestos.utilidadAntesDeImpuestos.cantidad)} <br/>
-        Impuestos a la utilidad ${formatearNumero(rubroImpuestos.impuestosUtilidad.cantidad)} <br/>
-        Utilidad neta o resultado del ejercicio ${formatearNumero(utilidadNeta.cantidad)}
-        */
 
         this.cargarHtml({ textoHtml });  
     }
