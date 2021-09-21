@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark">
         <a href="#" class="navbar-brand"> EjemplosContabilidadVanillaJs </a>
-        <div class="navbar-nav mr-auto">
+        <div class="navbar-nav mr-auto" style="margin-left: 8em;">
             <li class="nav-item">
                 <a href="#" link="#inicio" class="nav-link"> Inicio </a>
             </li>
@@ -24,14 +24,17 @@
             <li class="nav-item">
                 <a href="#" link="#estadoDeResultado" class="nav-link"> Estado de Resultado </a>
             </li>
-
             <li class="nav-item">
-                <a href="#" link="#asientoContable1" class="nav-link"> asientoContable1 </a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ejemplos Asientos Contables
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a href="#" link="#asientoContable1" class="dropdown-item"> Ejemplo 1 </a>
+                        <a href="#" link="#asientoContable2" class="dropdown-item"> Ejemplo 2 </a>
+                    </div>
+                </div>
             </li>
-            <li class="nav-item">
-                <a href="#" link="#asientoContable2" class="nav-link"> asientoContable2 </a>
-            </li>
-
         </div>
     </nav>
 
