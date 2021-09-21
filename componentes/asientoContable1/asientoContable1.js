@@ -24,15 +24,6 @@ export class AsientoContable1 extends CargaVista
     {
         let libro = new Libro();
 
-        /*
-        let asiento1 = new AsientoContable("10-9-2021", "Asiento 1" );
-        asiento1.cargar("Caja", 50000, "AAAAAAAAA. Como esos 50.000 los tengo que meter al banco o a la caja chica de la empresa");
-        asiento1.abonar("Capital social", 50000, "Viene de un socio, por lo que se tiene que reflejar en la parte de capital social"); 
-        asiento1.descripcion = `Un primer socio aportó un capital de 50.000`;
-        
-        libro.agregarAsiento(asiento1);
-        */
-
         //==================================================================>>>>>
         // Agregamos el primer asiento
         let asiento1 = new AsientoContable("20-01-2018", "Asiento 1" ); 
