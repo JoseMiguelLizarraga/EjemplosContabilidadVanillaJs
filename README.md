@@ -7,5 +7,5 @@ Posee ejemplos de asientos contables, balance general y estado de resultado.
 
 Javascript 
 
-##Ejemplo funcionando 
+## Ejemplo funcionando 
 https://josemiguellizarraga.github.io/EjemplosContabilidadVanillaJs/
